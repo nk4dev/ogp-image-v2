@@ -1,0 +1,9 @@
+#files
+bun.lock
+.env
+
+#folders
+.next/
+node_modules/
+dist/
+out/
