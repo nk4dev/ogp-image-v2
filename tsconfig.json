@@ -4,8 +4,11 @@
     "lib": [
       "ESNext"
     ],
+    "types": [
+      "@cloudflare/workers-types"
+    ],
     "target": "ESNext",
-    "module": "Preserve",
+    "module": "ESNext",
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "allowJs": true,
@@ -27,7 +30,6 @@
     "incremental": true
   },
   "include": [
-    "next-env.d.ts",
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"

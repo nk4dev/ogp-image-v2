@@ -1,0 +1,4 @@
+name = "ogp-imggen-dynamic"
+main = "src/index.tsx"
+compatibility_date = "2026-09-27"
+compatibility_flags = ["nodejs_compat"]
