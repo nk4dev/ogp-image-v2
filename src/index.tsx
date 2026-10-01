@@ -31,7 +31,7 @@ app.get("/", async (c) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: "#6734ff",
+          backgroundColor: "#12002a",
           width: "100%",
           height: "100%",
           padding: "10px",
@@ -62,7 +62,7 @@ app.get("/", async (c) => {
               wordBreak: "break-word",
               borderRadius: "10px 10px 0 0",
               backgroundImage:
-                "linear-gradient(240deg, rgba(0,0,0,0.15), rgba(0,0,32,0.85)), url(https://github.com/nk4dev/nk4dev.github.io/blob/master/public/images/og.png?raw=true)",
+                "linear-gradient(240deg, rgba(0,0,0,0.15), rgba(0,0,32,0.85)), url(https://raw.githubusercontent.com/nk4dev/assets/refs/heads/master/img/n4vlogo-pb.png?raw=true)",
             }}
           >
             {text}
@@ -79,7 +79,6 @@ app.get("/", async (c) => {
               borderRadius: "0 0 10px 10px",
               position: "relative",
               overflow: "hidden",
-              backgroundColor: "#1616c0", // fallback
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -98,7 +97,6 @@ app.get("/", async (c) => {
                 style={{
                   marginLeft: 8,
                   fontWeight: 400,
-                  textShadow: "0 2px 4px rgba(0,0,0,0.85), 0 0 6px rgba(0,0,0,0.6), 0 0 12px rgba(0,0,0,0.5)",
                 }}
               >
                 X, Instagram, GitHub, Misskey, Mastdon @nk4dev
